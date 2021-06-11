@@ -1,0 +1,136 @@
+#ContactUS .content {
+  padding: 10px 0;
+}
+#ContactUS .form-control {
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.493);
+  padding-left: 0;
+  padding-right: 0;
+  border-radius: 0;
+  background: none;
+}
+#ContactUS .form-group {
+  padding-right: 35px;
+}
+#ContactUS .form-control:active,
+#ContactUS .form-control:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-color: #000;
+}
+#ContactUS .col-form-label {
+  color: #000;
+  font-size: 16px;
+}
+#ContactUS .form-control {
+  height: 45px;
+}
+#ContactUS .btn.btn-primary {
+  background: #1d1e73;
+  color: #fff;
+  padding: 15px 20px 0px 20px;
+}
+#ContactUS .btn:hover {
+  color: rgba(255, 255, 255, 0.61);
+}
+#ContactUS .contact-wrap .col-form-label {
+  font-size: 16px;
+  font-weight: 600;
+  color: #000000;
+  margin: 0 0 8px 0;
+  display: inline-block;
+  padding: 0;
+}
+
+#ContactUS .contact-wrap .form,
+#ContactUS .contact-wrap .map {
+  padding-left: 20px;
+}
+
+#ContactUS .contact-wrap .form {
+  background: #fff;
+}
+
+#ContactUS .contact-wrap .form h3 {
+  color: #1d1e73;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+@media (max-width: 1199.98px) {
+  #ContactUS .contact-wrap .map {
+    height: 400px !important;
+  }
+}
+#ContactUS .contact-wrap .map h3 {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+/*====Map====*/
+.mapouter {
+  position: relative;
+  text-align: right;
+  width: 100%;
+  height: 500px;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  width: 100%;
+  height: 470px;
+}
+
+.gmap_iframe {
+  height: 470px !important;
+}
+
+@media (max-width: 797px) {
+  #ContactUS .contact-wrap .map {
+    margin-bottom: 40px;
+    margin-top: 40px;
+    padding-right: 25px;
+  }
+  #address {
+    padding-right: 15px;
+  }
+}
+
+.inputfield .custom_select select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0px;
+  padding: 0.5rem;
+  font-size: 16px;
+  border: 1px solid #d5dbd9;
+  border-radius: 3px;
+}
+/*=======Headings========*/
+#headings {
+  font-weight: 700;
+  color: #1d1e73;
+  position: relative;
+}
+
+#headings::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2.5px;
+  background-image: linear-gradient(
+    to right,
+    transparent,
+    #818181c7,
+    transparent
+  );
+  bottom: -15px;
+  left: 0px;
+}
